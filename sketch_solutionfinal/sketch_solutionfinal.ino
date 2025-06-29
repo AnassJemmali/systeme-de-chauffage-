@@ -16,7 +16,7 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 #define LM35_PIN2 35
 
 // TLP250 (relais pour la lampe)
-#define RELAY_PIN 5
+#define RELAY_PIN 6
 
 // Utilisation du bouton BOOT de l'ESP32
 #define BUTTON_PIN 4  // GPIO0 = bouton BOOT
